@@ -146,9 +146,9 @@ module.exports.combined = async (req, res) => {
   try {
     const { year, month } = req.params;
     const [statistics, barChart, pieChart] = await Promise.all([
-      axios.get(`http://localhost:8000/api/statistics/${year}/${month}`),
-      axios.get(`http://localhost:8000/api/bar-chart/${year}/${month}`),
-      axios.get(`http://localhost:8000/api/pie-chart/${year}/${month}`),
+      axios.get(`http://localhost:8000/api/statistics/${year}/${month}`), // Assuming the server is running on localhost:8000 or change the URL accordingly
+      axios.get(`http://localhost:8000/api/bar-chart/${year}/${month}`), // Assuming the server is running on localhost:8000 or change the URL accordingly
+      axios.get(`http://localhost:8000/api/pie-chart/${year}/${month}`), // Assuming the server is running on localhost:8000 or change the URL accordingly
     ]);
     res.json({
       statistics: statistics.data,
