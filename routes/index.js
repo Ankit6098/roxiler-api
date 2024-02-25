@@ -1,12 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const transactionController = require("../controllers/transectionController");
 
-router.get("/products", transactionController.getAllProduct);
-router.get("/transactions", transactionController.transaction);
-router.get("/statistics/:year/:month", transactionController.statistics);
-router.get("/bar-chart/:year/:month", transactionController.barChart);
-router.get("/pie-chart/:year/:month", transactionController.pieChart);
-router.get("/combined/:year/:month", transactionController.combined);
+router.use("/products", require("./product"));
 
 module.exports = router;

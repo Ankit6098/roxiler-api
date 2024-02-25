@@ -1,11 +1,10 @@
 const mysql = require("mysql2");
 const axios = require("axios");
-const productSchema = require("../model/product");
 
 const db = mysql.createConnection({
-  host: "127.0.0.1",
-  user: "root",
-  password: "root",
+  host: "127.0.0.1", // Replace with your host name
+  user: "root", //  Replace with your database username
+  password: "root", // Replace with your database password
 });
 
 db.connect((err) => {
@@ -30,6 +29,7 @@ db.connect((err) => {
     console.log("Using database");
   });
 
+  // Create a table if it doesn't exist
   db.query(
     `CREATE TABLE IF NOT EXISTS PRODUCT_TRANSACTION (
             id INT AUTO_INCREMENT PRIMARY KEY,
