@@ -47,7 +47,7 @@ Start the Server
   GET /api/product/statistics/:${year}/:${month}
 ```
 
-| Query | Type     | Description                       |
+| Params | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `year`    | `number` | **Required**. number of year  |
 | `month`    | `number` | **Required**. number of month  |
@@ -59,7 +59,7 @@ Start the Server
   GET /api/product/bar-chart/:${year}/:${month}
 ```
 
-| Query | Type     | Description                       |
+| Params | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `year`    | `number` | **Required**. number of year  |
 | `month`    | `number` | **Required**. number of month  |
@@ -71,7 +71,7 @@ Start the Server
   GET /api/product/pie-chart/:${year}/:${month}
 ```
 
-| Query | Type     | Description                       |
+| Params | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `year`    | `number` | **Required**. number of year  |
 | `month`    | `number` | **Required**. number of month  |
@@ -83,7 +83,7 @@ Start the Server
   GET /api/product/statistics/:${year}/:${month}
 ```
 
-| Query | Type     | Description                       |
+| Params | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `year`    | `number` | **Required**. number of year  |
 | `month`    | `number` | **Required**. number of month  |
