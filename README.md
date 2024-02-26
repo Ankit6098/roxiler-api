@@ -8,7 +8,7 @@ The "Product Transaction Analysis" project is a comprehensive solution designed 
 Clone the project
 
 ```bash
-  git clone https://github.com/Ankit6098?tab=repositories
+  git clone https://github.com/Ankit6098/roxiler-api
 ```
 
 Install the packages
