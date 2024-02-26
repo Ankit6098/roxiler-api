@@ -2,9 +2,7 @@
 # API 
 
 The "Product Transaction Analysis" project is a comprehensive solution designed to empower businesses with efficient management and insightful analysis of their product transactions. Leveraging Node.js for backend development and MySQL for database management, the project offers a robust API infrastructure, facilitating transaction recording, statistical insights generation, and intuitive data visualization through bar and pie charts. With clear API documentation powered by Swagger, developers can seamlessly integrate the solution into their applications, enabling businesses to make informed decisions and optimize their operations based on actionable transaction data.
-## Demo
 
-https://roxiler-api-a94k.onrender.com
 ## Run Locally
 
 Clone the project
